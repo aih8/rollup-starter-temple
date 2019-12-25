@@ -2,7 +2,7 @@
 
 #### 注意事项
 ###### js全局挂载名称
-在package.json中设置jsGlobalName属相
+在package.json中设置jsGlobalName属性
 
 ###### 项目demo运行
 ```javascript
