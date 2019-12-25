@@ -3,7 +3,7 @@
   "jsGlobalName": "webMessager",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/entry.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=devolpment node ./build/rollup-watch.js",
