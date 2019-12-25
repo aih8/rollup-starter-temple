@@ -1,0 +1,37 @@
+{
+  "name": "web-messager",
+  "jsGlobalName": "webMessager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=devolpment node ./build/rollup-watch.js",
+    "build": "cross-env NODE_ENV=production node ./build/rollup-build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^1.27.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@rollup/plugin-alias": "^3.0.0",
+    "@rollup/plugin-buble": "^0.21.0",
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-json": "^4.0.1",
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "@rollup/plugin-replace": "^2.3.0",
+    "@rollup/plugin-typescript": "^2.0.1",
+    "cross-env": "^6.0.3",
+    "rimraf": "^3.0.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.4"
+  }
+}
